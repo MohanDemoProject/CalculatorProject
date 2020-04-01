@@ -22,6 +22,12 @@ public class DoCalculation {
 		return A+B;
 	}
 	
+	/**
+	 * displayResult method is used to display the result
+	 * 
+	 * @param result
+	 * @param description
+	 */
 	private static void displayResult(int result, String description) {
 		System.out.println(description+result);
 	}
