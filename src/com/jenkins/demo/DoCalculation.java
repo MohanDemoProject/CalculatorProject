@@ -1,3 +1,5 @@
+package com.jenkins.demo;
+
 /**
  * DoCalculation class file to do addition operation
  * 
@@ -18,7 +20,7 @@ public class DoCalculation {
 		displayResult(calculationResult,addition);
 	}
 
-	private static int addition(int A, int B) {
+	public static int addition(int A, int B) {
 		return A+B;
 	}
 	
